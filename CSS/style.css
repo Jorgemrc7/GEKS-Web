@@ -1,0 +1,151 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    padding: 2rem;
+    background-color: rgb(36, 102, 163);
+    text-align: right;
+}
+
+header a{
+    margin: 1rem;
+    padding: .5rem;
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+
+header a:link{
+    color: aliceblue;
+}
+
+header a:hover{
+    color: cornflowerblue;
+}
+
+.seccion1{
+    display: flex;
+    margin: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    align-content: center;
+    background-image: url('img/Imagen2.jpg');
+    background-size: cover;
+}
+
+.cuadro{
+    margin: 75px 30px;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(56, 55, 55);
+    color: aliceblue;
+}
+
+.fondoA{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 183, 48);
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fondoR{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 79, 48);
+    color: aliceblue;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.subtitulo{
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: rgb(70, 69, 69);
+    color: aliceblue;
+    text-align: center;
+}
+
+.juego{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img/Imagen1.jpg');
+    background-size: cover;
+    color: aliceblue;
+}
+
+/* .juego link{
+    border: solid cornflowerblue 2px;
+    border-radius: 15%;
+    width: 5rem;
+    height: 2rem;
+    background-color: none;
+} */
+
+.boton{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(118,109,244);
+    padding: 10px 30px;
+    border: 2px solid rgb(118,109,244);
+    position: relative;
+    transition: .5s;
+}
+
+.boton::before,
+.boton::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: .5s;
+}
+
+.boton::before{
+    top: -10px;
+    left: -10px;
+    border-width: 2px 0 0 2px;
+}
+
+.boton::after{
+    bottom: -10px;
+    right: -10px;
+    border-width: 0 2px 2px 0;
+}
+
+.boton:hover::before,
+.boton:hover::after{
+    width: calc(100% + 18px);
+    height: calc(100% + 18px);
+}
+
+.info{
+    display: flexbox;
+    margin: 0px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+
+footer{
+    display: flex;
+    margin: 0px;
+    background-color: aqua;
+}
