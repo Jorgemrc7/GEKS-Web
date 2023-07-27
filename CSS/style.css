@@ -78,7 +78,7 @@ header a:hover{
     text-align: center;
 }
 
-.juego{
+/* .juego{
     display: flex;
     margin: 0px;
     padding: 0px;
@@ -89,14 +89,7 @@ header a:hover{
     background-size: cover;
     color: aliceblue;
 }
-
-/* .juego link{
-    border: solid cornflowerblue 2px;
-    border-radius: 15%;
-    width: 5rem;
-    height: 2rem;
-    background-color: none;
-} */
+ */
 
 .boton{
     text-decoration: none;
@@ -134,66 +127,4 @@ header a:hover{
 .boton:hover::after{
     width: calc(100% + 18px);
     height: calc(100% + 18px);
-}
-
-/* .info{
-    display: flexbox;
-    margin: 0px;
-    height: 100px;
-    background-color: aquamarine;
-} */
-
-
-
-footer{
-    display: flex;
-    margin: 0px;
-    background-color: #050028;
-    box-shadow: 1px 1px 1px 1px  rgb(0,0,0,0.3);
-    font-size: 16px;
-    color: white;
-    flex-direction: column;
-    width: 100%;
-}
-
-.footer-sections{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 48px;
-    margin: 0 auto;
-    max-width: 720px;
-    padding: 16px;
-}
-
-.social-links{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-
-}
-
-.social-links img {
-    width: 50px;
-    height: 50px;
-}
-
-.Logo{
-    max-width: 100px;
-    margin-top: 6px;
-    margin-bottom: 8px;
-    border-radius: 25%;
-}
-
-.footer-bottom{
-    min-height: 60px;
-    margin-top: 52px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #1f1b3d;
-    font-size: 14px;
-    opacity: .8;
 }
