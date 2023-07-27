@@ -13,10 +13,17 @@ body{
     margin: 0px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    text-align: center;
     justify-content: space-around;
     align-content: center;
-    background-image: url('../img/Imagen2.jpg');
+    background-image: url('../img/Fondos/Imagen2.jpg');
     background-size: cover;
+}
+
+.seccion1 .logo img{
+    background-color: rgba(0, 0, 0,0.1);
+    border-radius: 25%;
+    width: 250px;
 }
 
 .cuadro{
@@ -54,6 +61,14 @@ body{
     background-color: rgb(70, 69, 69);
     color: aliceblue;
     text-align: center;
+}
+
+.article-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url('../Img/Fondos/Imagen1.jpg');
+    background-size: cover;
 }
 
 /* .juego{
