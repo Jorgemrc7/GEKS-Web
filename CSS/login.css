@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color: rgb(39, 46, 83);
+    color: white
+}
+
+table{
+    background-color: rgba(65, 74, 121,0.5);
+    padding: 20px;
+    width: 150px;
+    height: 300px;
+    border-radius: 10%;
+    color: white;
+}
+
+table th{
+    margin: 0;
+    padding: 5px;
+}
+table th a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+table th a:link{
+    color: aliceblue;
+}
+
+table th a:hover{
+    color: cornflowerblue;
+}
+
+input{
+    width: 175px;
+    height: 25px;
+    border-radius: 28%;
+    border-bottom: 5px;
+    border-top: 5px;
+    border: solid 3px rgb(138, 133, 145);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: gray 15%;
+}

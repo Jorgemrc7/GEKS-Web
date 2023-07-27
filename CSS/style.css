@@ -8,28 +8,6 @@ body{
     border: 0;
 }
 
-header{
-    padding: 2rem;
-    background-color: rgb(36, 102, 163);
-    text-align: right;
-}
-
-header a{
-    margin: 1rem;
-    padding: .5rem;
-    text-decoration: none;
-    color: aliceblue;
-    transition: color 0.3s ease;
-}
-
-header a:link{
-    color: aliceblue;
-}
-
-header a:hover{
-    color: cornflowerblue;
-}
-
 .seccion1{
     display: flex;
     margin: 0px;
