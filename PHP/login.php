@@ -15,7 +15,7 @@
         header('Location: ../HTML/registro.hmtl');
     }
 
-    if(password_verify($password_login, $resultado['Password'])){
+    if(password_verify($password_login, $resultado['Password_D'])){
         $_SESSION['admin'] = $usuario_login;
         header('Location: ../HTML/Inicio.html');
     }else{

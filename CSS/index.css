@@ -18,11 +18,12 @@ body{
     align-content: center;
     background-image: url('../img/Fondos/Imagen2.jpg');
     background-size: cover;
+    height: 550px;
 }
 
 .seccion1 .logo img{
     border-radius: 25%;
-    width: 250px;
+    width: 220px;
 }
 
 .cuadro{
@@ -69,19 +70,6 @@ body{
     background-image: url('../Img/Fondos/Imagen1.jpg');
     background-size: cover;
 }
-
-/* .juego{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    height: 150px;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../img/Imagen1.jpg');
-    background-size: cover;
-    color: aliceblue;
-}
- */
 
 .boton{
     text-decoration: none;

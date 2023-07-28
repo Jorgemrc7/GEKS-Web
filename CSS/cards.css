@@ -14,8 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 350px;
-    height: 300px;
+    width: 550px;
+    height: 350px;
     background: rgb(71, 70, 70);
     border-radius: 20px;
     transition: 0.5s;
@@ -30,8 +30,8 @@
 .container .card .img-box{
     position: absolute;
     top: 20px;
-    width: 300px;
-    height: 220px;
+    width: 365px;
+    height: 225px;
     background: #d4d3d3;
     border-radius: 12px;
     overflow: hidden;
@@ -68,10 +68,11 @@
     height: 250px;
 }
 
-.container .card .content h3 {
+.container .card .content h2 {
+    text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--clr);
+    color: white;
 }
 
 .container .card .content p{

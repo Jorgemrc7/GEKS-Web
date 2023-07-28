@@ -2,8 +2,8 @@
     include_once 'conexion.php';
 
     $usuario_nuevo = $_POST['User_D'];
-    //$email_user = $_POST['Email_D'];
-    //$tel_user = $_POST['Tel_D'];
+    $email_user = $_POST['Email_D'];
+    $tel_user = $_POST['Tel_D'];
     $password = $_POST['Password_D'];
     $password2 = $_POST['Password2_D'];
 
@@ -21,9 +21,9 @@
 	}else{
 		if(password_verify($password2, $password)){
         
-			$sql_agregar = 'INSERT INTO docentes(User_D, Password_D,) values(?,?)';
+			$sql_agregar = 'INSERT INTO docentes(User_D, Email_D, Tel_D, Password_D) values(?,?,?,?)';
 			$sentencia_agregar = $pdo->prepare($sql_agregar);
-			$sentencia_agregar->execute(array($usuario_nuevo, $password));
+			$sentencia_agregar->execute(array($usuario_nuevo, $email_user, $tel_user $password));
 	
 			//Destruir variables 
 			$sentencia_agregar = null;
