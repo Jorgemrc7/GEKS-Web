@@ -67,3 +67,17 @@ menu{
 menu li{
     margin-bottom: 16px;
 }
+
+menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+
+menu li a:link{
+    color: aliceblue;
+}
+
+menu li a:hover{
+    color: cornflowerblue;
+}

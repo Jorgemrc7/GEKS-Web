@@ -23,7 +23,7 @@
         
 			$sql_agregar = 'INSERT INTO docentes(User_D, Email_D, Tel_D, Password_D) values(?,?,?,?)';
 			$sentencia_agregar = $pdo->prepare($sql_agregar);
-			$sentencia_agregar->execute(array($usuario_nuevo, $email_user, $tel_user $password));
+			$sentencia_agregar->execute(array($usuario_nuevo, $email_user, $tel_user, $password));
 	
 			//Destruir variables 
 			$sentencia_agregar = null;
